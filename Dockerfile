@@ -52,7 +52,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 ARG ROSDEP_IGNORE="pal_gazebo_plugins speed_limit_node sensor_to_cloud pmb3_rgbd_sensors pal_vo_server pal_karto pal_usb_utils pal_local_planner pal_filters hokuyo_node rrbot_launch robot_pose pal_pcl rviz_plugin_covariance pal-orbbec-openni2 slam_toolbox omni_drive_controller"
 
-RUN apt-get update && rosdep install --from-paths src --ignore-src -y --rosdistro noeticc --skip-keys="${ROSDEP_IGNORE}"
+RUN apt-get update && rosdep install --from-paths src --ignore-src -y --rosdistro noetic --skip-keys="${ROSDEP_IGNORE}"
 
 RUN bash -c "source /opt/ros/noetic/setup.bash \
     && catkin build -DCATKIN_ENABLE_TESTING=0 -j $(expr `nproc` / 2) \
