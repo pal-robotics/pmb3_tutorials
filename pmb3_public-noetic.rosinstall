@@ -3,6 +3,7 @@
 - git: {local-name: pal_hardware_interfaces,   uri: 'https://github.com/pal-robotics/pal_hardware_interfaces.git', version: 'indigo-devel'}
 - git: {local-name: pal_hardware_gazebo,      uri: 'https://github.com/pal-robotics/pal_hardware_gazebo.git', version: 'melodic-devel'}
 - git: {local-name: pal_gazebo_worlds,       uri: 'https://github.com/pal-robotics/pal_gazebo_worlds.git', version: 'kinetic-devel'}
+- git: {local-name: pmb2_robot,           uri: 'https://github.com/pal-robotics/pmb2_robot.git', version: 'kinetic-devel'}
 - git: {local-name: pmb3_robot,           uri: 'https://github.com/pal-robotics/pmb3_robot.git', version: 'noetic-devel'}
 - git: {local-name: pmb3_simulation,           uri: 'https://github.com/pal-robotics/pmb3_simulation.git', version: 'noetic-devel'}
 - git: {local-name: pmb3_navigation,           uri: 'https://github.com/pal-robotics/pmb3_navigation.git', version: 'noetic-devel'}
@@ -13,9 +14,15 @@
 - git: {local-name: tf_lookup,           uri: 'https://github.com/pal-robotics/tf_lookup.git', version: 'master'}
 - git: {local-name: pal_gazebo_plugins,      uri: 'https://github.com/pal-robotics/pal_gazebo_plugins.git', version: 'melodic-devel'}
 - git: {local-name: ros_controllers,       uri: 'https://github.com/pal-robotics-forks/ros_controllers.git', version: 'kinetic-devel'}
+- git: {local-name: rviz_plugin_covariance,       uri: 'https://github.com/pal-robotics/rviz_plugin_covariance.git', version: 'kinetic-devel'}
+- git: {local-name: simple_models_robot,          uri: 'https://github.com/pal-robotics/simple_models_robot.git', version: 'kinetic-devel'}
+- git: {local-name: teleop_tools,                 uri: 'https://github.com/pal-robotics-forks/teleop_tools.git', version: 'noetic-devel'}
 - git: {local-name: dynamic_introspection,       uri: 'https://github.com/pal-robotics/dynamic_introspection.git', version: 'kinetic-devel'}
 - git: {local-name: pal_statistics,       uri: 'https://github.com/pal-robotics/pal_statistics.git', version: 'kinetic-devel'}
 - git: {local-name: pal_msgs,       uri: 'https://github.com/pal-robotics/pal_msgs.git', version: 'indigo-devel'}
 - git: {local-name: pal_python,       uri: 'https://github.com/pal-robotics/pal_python.git', version: 'indigo-devel'}
 - git: {local-name: robot_pose,                   uri: 'https://github.com/pal-robotics/robot_pose', version: 'kinetic-devel'}
+- git: {local-name: humanoid_msgs,                uri: 'https://github.com/ahornung/humanoid_msgs.git', version: 'master'}
 - git: {local-name: navigation_layers,            uri: 'https://github.com/DLu/navigation_layers.git', version: 'noetic'}
+- git: {local-name: realsense_gazebo_plugin,      uri: 'https://github.com/pal-robotics/realsense_gazebo_plugin.git', version: 'melodic-devel'}
+- git: {local-name: realsense,                    uri: 'https://github.com/pal-robotics-forks/realsense.git', version: 'melodic-devel'}
