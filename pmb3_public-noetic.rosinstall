@@ -20,7 +20,7 @@
 - git: {local-name: dynamic_introspection,       uri: 'https://github.com/pal-robotics/dynamic_introspection.git', version: 'kinetic-devel'}
 - git: {local-name: pal_statistics,       uri: 'https://github.com/pal-robotics/pal_statistics.git', version: 'kinetic-devel'}
 - git: {local-name: pal_msgs,       uri: 'https://github.com/pal-robotics/pal_msgs.git', version: 'indigo-devel'}
-- git: {local-name: pal_python,       uri: 'https://github.com/pal-robotics/pal_python.git', version: 'indigo-devel'}
+- git: {local-name: pal_python,       uri: 'https://github.com/pal-robotics/pal_python.git', version: 'melodic-devel'}
 - git: {local-name: robot_pose,                   uri: 'https://github.com/pal-robotics/robot_pose', version: 'kinetic-devel'}
 - git: {local-name: humanoid_msgs,                uri: 'https://github.com/ahornung/humanoid_msgs.git', version: 'master'}
 - git: {local-name: navigation_layers,            uri: 'https://github.com/DLu/navigation_layers.git', version: 'noetic'}
